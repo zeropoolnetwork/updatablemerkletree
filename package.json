@@ -1,0 +1,30 @@
+{
+  "name": "updatablemerkletree",
+  "version": "0.0.1",
+  "description": "updatablemerkletree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeropoolnetwork/updatablemerkletree.git"
+  },
+  "author": "Igor Gulamov",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/zeropoolnetwork/updatablemerkletree/issues"
+  },
+  "homepage": "https://github.com/zeropoolnetwork/updatablemerkletree#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "circomlib": "github:snjax/circomlib",
+    "dotenv": "^6.2.0",
+    "lodash": "^4.17.15",
+    "openzeppelin-solidity": "^2.3.0",
+    "truffle-artifactor": "^4.0.30",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "txcircuit": "github:zeropoolnetwork/txcircuit",
+    "web3": "1.0.0-beta.37"
+  }
+}
